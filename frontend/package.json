@@ -1,0 +1,26 @@
+{
+  "name": "monsite-frontend",
+  "version": "1.0.0",
+  "description": "Frontend for MonSite - Budget and Project Management",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "axios": "^1.4.0",
+    "@supabase/supabase-js": "^2.26.0",
+    "recharts": "^2.7.2",
+    "react-router-dom": "^6.11.2"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.0.0",
+    "vite": "^4.3.9",
+    "tailwindcss": "^3.3.0",
+    "postcss": "^8.4.24",
+    "autoprefixer": "^10.4.14"
+  }
+}
